@@ -21,10 +21,6 @@
     .particle { position: absolute; border-radius: 50%; background: var(--gold2); opacity: 0; animation: twinkle var(--dur, 3s) ease-in-out var(--delay, 0s) infinite; }
     @keyframes twinkle { 0% { opacity: 0; transform: scale(0.5) translateY(0); } 50% { opacity: 0.7; } 100% { opacity: 0; transform: scale(1.5) translateY(-40px); } }
     .hero-content { position: relative; z-index: 1; max-width: 860px; width: 100%; }
-    .badge-promo { display: inline-block; background: var(--red); color: var(--white); font-size: 0.7rem; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; padding: 6px 18px; border-radius: 2px; margin-bottom: 28px; animation: pulse-badge 2s ease-in-out infinite; }
-    @keyframes pulse-badge { 0%,100% { box-shadow: 0 0 0 0 rgba(227,0,15,0.5); } 50% { box-shadow: 0 0 0 8px rgba(227,0,15,0); } }
-    .glove-deco { font-size: 3.5rem; margin-bottom: 10px; display: block; filter: drop-shadow(0 0 18px rgba(201,168,76,0.7)); animation: float 3s ease-in-out infinite; }
-    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
     .title-super { font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.1rem, 3vw, 1.4rem); letter-spacing: 10px; color: var(--gold); text-transform: uppercase; margin-bottom: 8px; }
     .title-main { font-family: 'Bebas Neue', sans-serif; font-size: clamp(5rem, 18vw, 11rem); line-height: 0.9; text-transform: uppercase; letter-spacing: 4px; background: linear-gradient(180deg, #fff 30%, #C9A84C 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     .title-sub { font-family: 'Bebas Neue', sans-serif; font-size: clamp(1rem, 3vw, 1.3rem); letter-spacing: 8px; color: var(--gold); margin-top: 6px; margin-bottom: 40px; }
@@ -107,14 +103,12 @@
 <section class="hero">
   <div class="particles" id="particles"></div>
   <div class="hero-content">
-    <div class="badge-promo">🎉 ¡Ganaste una entrada doble!</div>
-    <span class="glove-deco">🤍</span>
     <p class="title-super">La película del año</p>
     <h1 class="title-main">MICHAEL</h1>
-    <p class="title-sub">The Legend. The Music. The King.</p>
+    <p class="title-sub">La historia del Rey del Pop</p>
     <div class="date-pill">
       <span class="dot"></span>
-      24 de abril · Estreno exclusivo · Cinemark Hoyts
+      Jueves 23 de abril · Estreno exclusivo · Cinemark Hoyts
     </div>
   </div>
   <div class="ticket-wrap hero-content">
@@ -125,7 +119,7 @@
         <p class="ticket-headline">¡Felicitaciones! Ganaste <span>2 entradas</span> para ver<br>Michael en pantalla grande 🎬</p>
         <div class="ticket-row">
           <div class="ticket-field"><label>Película</label><value>MICHAEL</value></div>
-          <div class="ticket-field"><label>Fecha</label><value class="big">24 ABR</value></div>
+          <div class="ticket-field"><label>Fecha</label><value class="big">23 ABR</value></div>
           <div class="ticket-field"><label>Año</label><value>2026</value></div>
           <div class="ticket-field"><label>Entradas</label><value class="big">× 2</value></div>
         </div>
@@ -142,7 +136,7 @@
       <div class="ticket-right">
         <div class="notch top"></div>
         <div class="qty-badge">2<small>ENT.</small></div>
-        <div class="ticket-stub">MICHAEL · 24 ABR</div>
+        <div class="ticket-stub">MICHAEL · 23 ABR</div>
         <div class="notch bot"></div>
       </div>
     </div>
@@ -151,7 +145,7 @@
 
 <section class="congrats-section">
   <h2 class="congrats-title">¡Sos parte de<br><em>la noche más épica!</em></h2>
-  <p class="congrats-text">Participaste y ganaste: dos entradas para el estreno de <strong style="color:#fff">MICHAEL</strong>, la esperada biopic sobre el Rey del Pop. Una experiencia cinematográfica única, con el sonido, la historia y la magia de Michael Jackson en pantalla grande. Este 24 de abril, viví el evento del año.</p>
+  <p class="congrats-text">Participaste y ganaste: dos entradas para el estreno de <strong style="color:#fff">MICHAEL</strong>, la esperada biopic sobre el Rey del Pop. Una experiencia cinematográfica única, con el sonido, la historia y la magia de Michael Jackson en pantalla grande. Este jueves 23 de abril, viví el evento del año.</p>
   <a href="#" class="cta-btn">Reservar butacas ahora</a>
 </section>
 
@@ -162,7 +156,7 @@
     <div class="steps-grid">
       <div class="step"><div class="step-num">01</div><span class="step-icon">📱</span><h3>Descargá la app</h3><p>Ingresá a la app de Cinemark Hoyts o a la página web oficial.</p></div>
       <div class="step"><div class="step-num">02</div><span class="step-icon">🔑</span><h3>Ingresá tu código</h3><p>Al seleccionar la función, ingresá el código <strong style="color:#F5D78E">MJ-KING-2426</strong> en el campo promocional.</p></div>
-      <div class="step"><div class="step-num">03</div><span class="step-icon">💺</span><h3>Elegí tus butacas</h3><p>Seleccioná tus dos asientos preferidos para la función del 24 de abril.</p></div>
+      <div class="step"><div class="step-num">03</div><span class="step-icon">💺</span><h3>Elegí tus butacas</h3><p>Seleccioná tus dos asientos preferidos para la función del jueves 23 de abril.</p></div>
       <div class="step"><div class="step-num">04</div><span class="step-icon">🎬</span><h3>¡A disfrutar!</h3><p>Presentá tu código o QR en boletería y viví la experiencia completa.</p></div>
     </div>
   </div>
@@ -191,9 +185,9 @@
   </div>
   <div class="terms">
     <p class="terms-title">Términos y condiciones de la promoción</p>
-    <p><strong>1. Vigencia.</strong> La presente promoción es válida exclusivamente para la función de la película "MICHAEL" a realizarse el día 24 de abril de 2026 en las salas participantes de Cinemark Hoyts de la República Argentina, sujeta a disponibilidad de localidades y horarios publicados en la plataforma oficial.</p>
+    <p><strong>1. Vigencia.</strong> La presente promoción es válida exclusivamente para la función de la película "MICHAEL" a realizarse el día 23 de abril de 2026 en las salas participantes de Cinemark Hoyts de la República Argentina, sujeta a disponibilidad de localidades y horarios publicados en la plataforma oficial.</p>
     <p><strong>2. Premio.</strong> El premio consiste en dos (2) entradas de cortesía para la película "MICHAEL" (clasificación a confirmar por distribuidora) en cualquiera de las salas participantes. Las entradas no incluyen consumición, estacionamiento ni ningún otro beneficio adicional no especificado en esta promoción. El premio es personal, intransferible y no canjeable por dinero en efectivo ni por otros productos o servicios.</p>
-    <p><strong>3. Canje del código.</strong> El código promocional MJ-KING-2426 deberá ser ingresado en la plataforma oficial de Cinemark Hoyts (app o sitio web) o presentado en boletería física antes de la fecha de la función. El código tiene un único uso y caduca el 23 de abril de 2026 a las 23:59 hs (GMT-3). Vencido dicho plazo sin haber sido canjeado, el código perderá su validez sin derecho a compensación alguna.</p>
+    <p><strong>3. Canje del código.</strong> El código promocional MJ-KING-2426 deberá ser ingresado en la plataforma oficial de Cinemark Hoyts (app o sitio web) o presentado en boletería física antes de la fecha de la función. El código tiene un único uso y caduca el 22 de abril de 2026 a las 23:59 hs (GMT-3). Vencido dicho plazo sin haber sido canjeado, el código perderá su validez sin derecho a compensación alguna.</p>
     <p><strong>4. Restricciones.</strong> Las entradas no son válidas para funciones en formatos premium (IMAX, 4DX, VIP, ScreenX u otros) salvo indicación expresa. Aplicable únicamente en salas de Argentina. No acumulable con otras promociones, descuentos o beneficios vigentes. Cinemark Hoyts se reserva el derecho de modificar salas, horarios o condiciones por causas operativas o de fuerza mayor, sin obligación de notificación previa.</p>
     <p><strong>5. Protección de datos.</strong> Los datos personales del ganador serán tratados conforme a la Ley N° 25.326 de Protección de Datos Personales de la República Argentina y la política de privacidad de Cinemark Hoyts Argentina S.A., disponible en www.cinemarkhoyts.com.ar. El ganador acepta la utilización de su nombre con fines promocionales en redes sociales y comunicaciones oficiales, salvo manifestación en contrario.</p>
     <p><strong>6. Responsabilidad.</strong> Cinemark Hoyts Argentina S.A. no se responsabiliza por fallas técnicas, interrupciones en el servicio de internet, errores en el ingreso del código, pérdida o uso no autorizado del mismo por parte de terceros. La participación en esta promoción implica la aceptación de los presentes términos y condiciones en su totalidad.</p>
@@ -219,7 +213,7 @@
     bc.appendChild(bar);
   });
   function updateCountdown() {
-    const target = new Date('2026-04-24T21:00:00-03:00');
+    const target = new Date('2026-04-23T21:00:00-03:00');
     const now = new Date();
     let diff = Math.max(0, target - now);
     const days  = Math.floor(diff / 86400000); diff -= days * 86400000;
